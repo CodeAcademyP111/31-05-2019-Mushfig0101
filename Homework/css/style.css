@@ -1,0 +1,576 @@
+#slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+#slider .slide .item {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#slider .slide .item img {
+    width: 100%;
+    height: 100%;
+}
+
+#slider .slide .item .cover {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#slider .slide .item .word {
+    position: absolute;
+    top: 30%;
+}
+
+#slider .slide .item .word h3 {
+    font-size: 3.3em;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 68px;
+}
+
+#slider .slide .item .word h4 {
+    color: white;
+    margin: 1em 0 1.5em;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+#slider .slide .item .word a {
+    border: 2px solid white;
+    border-radius: 0px;
+    padding: 11px 30px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+
+/* navigation button Start*/
+
+#slider .navigation {
+    position: absolute;
+    top: 45%;
+    color: white;
+    font-size: 30px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#slider .navigation:hover {
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+#slider .right {
+    right: 10px;
+}
+
+#slider .left {
+    left: 10px;
+    display: none;
+}
+
+
+/* navigation button End*/
+
+
+/* navba Start */
+
+nav {
+    position: relative;
+    z-index: 1;
+    padding: 5px 0;
+    border-bottom: 1px solid white;
+}
+
+nav img {
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    color: white;
+}
+
+nav ul {
+    padding: 15px 0;
+}
+
+nav ul li a {
+    text-decoration: none !important;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 10px 13px;
+    font-weight: 400;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+nav ul li a:hover {
+    color: inherit;
+}
+
+nav ul li .book {
+    background: #047ffc;
+    padding: 10px 25px;
+    display: block;
+    margin-top: -7px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+
+/* navba End */
+#main{
+
+}
+#main .content{
+    
+}
+#main .content h3{
+    color: #707579;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 40px;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+#main .content p{
+ 
+    font-weight: 300;
+    margin-top: 25px!important;
+    font-size: 15px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    color: #707579;
+    font-family: 'Open Sans', sans-serif;
+}
+#main .img_cont{
+
+}
+#main .img_cont img{
+    margin-left: 8%;
+    width: 90%;
+}
+#main .info{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+#main .info span{
+    display: flex;
+    justify-content: center;
+}
+#main .info span i{
+    font-size: 30px;
+    color: #047ffc;
+    
+}
+#main .info h3{
+    font-weight: 300;
+    font-size: 46px;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+    font-stretch: semi-expanded;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: #0e0e0eb5;
+    font-variant: titling-caps;
+}
+#main .info p{
+    display: flex;
+    justify-content: center;
+    color: #707579;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+#plan{
+    background-color: #007bff;
+    margin-top: 5em;
+
+}
+#plan .for_title{
+    color: white;
+    font-size: 40px;
+    padding-top: 90px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+
+#plan .trip_plan{
+
+}
+#plan .trip_plan span{
+    display: flex;
+    justify-content: center;
+}
+#plan .trip_plan span i{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 80px;
+    background-color: white;
+    text-align: center;
+    color: #007bff;
+}
+#plan .trip_plan h5{
+    text-align: center;
+    padding: 22px 0 10px 0;
+    color: white;
+    font-size: 21px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+#plan .trip_plan p{
+    color: #ffffffd1;
+    letter-spacing: 1.1px;
+    text-align: center;
+    line-height: 1.6;
+}
+/* -------------------- */
+#tour_packages{
+position: relative;
+}
+#tour_packages h3{
+    margin: 70px 0px 40px 0;
+    font-size: 40px;
+    line-height: 1.2px;
+    letter-spacing: 1.5px;
+    color: #464748;
+    font-weight: 400;
+    text-align: center;
+}
+#tour_packages p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    font-weight: 400;
+    color: #707579;
+}
+#tour_packages .my_card{
+    width:100%;
+   
+}
+#tour_packages .my_card .canvas_card{
+    width:100%;
+    height:100%;
+}
+#tour_packages .my_card .canvas_card img{
+    
+}
+#tour_packages .my_card .canvas_card p{
+    position: absolute;
+    top: 140px;
+    right: 20px;
+    width: 77px;
+    background-color: #047ffc;
+    color: white;
+    height: 30px;
+}
+
+#tour_packages .my_card .canvas_card p .eticket{
+    
+}
+
+#tour_packages .my_card .canvas_card p .price{
+    
+}
+
+
+
+
+#tour_packages .my_card .card_info{
+    width:100%;
+    height:100%;
+    background: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding-top: 26px;
+}
+#tour_packages .my_card .card_info span{
+    
+}
+#tour_packages .my_card .card_info span i{
+    font-size: 18px;
+    color: #047ffc;
+    display: inline-block;
+    margin-right: 1px;
+    margin-left: 15px;
+}    
+#tour_packages .my_card .card_info h5{
+    display: inline-block;
+
+}
+#tour_packages .my_card .card_info p{
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 15px;
+    padding-top: 7px;
+}
+
+#tour_packages .my_card .card_info .keep{
+
+}
+#tour_packages .my_card .card_info .keep #clock{
+    
+}
+#tour_packages .my_card .card_info .keep #clock i{
+    font-size: 14px;
+}
+#tour_packages .my_card .card_info .keep h6{
+    display: inline-block;
+    font-size: 14px;
+    padding-bottom: 10px;
+  
+}
+/*  ----------------------------------*/
+#book{
+    background-image: url("../img/banner4.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+width:100%;
+height: 420px;
+position: relative;
+margin-top:50px;
+}
+
+#book .cover{
+height: 100%;
+background-color: #00000085 !important;
+width: 100%;
+position: absolute;
+}
+
+
+#book .book_trip{
+/* width:100%;
+height:100%; */
+position: absolute;
+top:0;
+left:0;
+}
+
+#book .book_trip h5{
+    color: white;
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 2.2px;
+    padding-top: 40px;
+}
+#book .book_trip p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-top: 17px;
+    padding-bottom: 20px;
+
+}
+#book .book_trip span{
+    padding: 10px 30px 10px;
+    border: 2px solid white;
+    font-size: 20px;
+}
+#book .book_trip span a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#places{
+
+}
+
+#places .place_content{
+    margin-top: 5em;
+}
+
+#places .place_content h4{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
+}
+
+#places .place_content p{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    margin-bottom: 3rem!important;
+}
+
+#places .item{
+position: relative;
+box-sizing: border-box;
+}
+
+#places h4{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#places .item img{
+    width: 100%;
+    height: 100%;
+}
+
+#places .item ul{
+    background: #047ffc;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    padding: 0px 10px 7px;
+    font-size: 12px;
+    color: white;
+
+}
+
+#places .item ul li{
+display: inline-block;
+    
+}
+
+/* #places .item ul li a{
+            
+}
+#places .item ul li a i{
+  
+           
+} */
+#footer{
+    background-color: #151515;
+    margin-top: 6rem;
+    padding-top: 5rem;
+}
+
+#footer h3{
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 2.3px;
+    padding-bottom: 10px;
+}
+#footer .footer_list{
+box-sizing: border-box;
+width:100%;
+height:100%;
+}
+#footer .footer_list p{
+    color: #707070f3;
+    margin: 8px 0;
+    line-height: 2em;
+    
+}
+#footer .footer_list p a{
+   text-decoration: none;
+    color: #707070f3;
+  
+    
+}
+#footer .footer_list .icons{
+
+}
+#footer .footer_list .icons ul{
+    
+}
+#footer .footer_list .icons ul li{
+    display:inline-block;
+
+} 
+#footer .footer_list .icons ul li a{
+    
+} 
+#footer .footer_list .icons ul li a i{
+    margin-bottom: 10px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 18px; 
+    color: white;
+    
+} 
+#footer .footer_list .icons ul li a .fa-facebook-f{
+    background-color: #3b5998;
+} 
+#footer .footer_list .icons ul li a .fa-twitter{
+    background-color: #1da1f2
+} 
+
+
+#footer .footer_list .icons ul li a .fa-google-plus-g{
+    background-color:#dd4b39;
+
+}
+#footer .footer_list .icons ul li a .fa-linkedin-in{
+    background-color: #0077b5;
+} 
+
+#footer .footer_list #city1{
+list-style: none;
+padding-left: 10px;
+}
+
+#footer .footer_list #city1 li{
+
+}
+#footer .footer_list #city1 li a{
+color:#707070;
+}
+
+#footer .footer_list #city2{
+    list-style: none;
+}
+
+#footer .footer_list #city2 li{
+
+}
+#footer .footer_list #city2 li a{
+   color: #707070;
+}
+
+footer .footer_list .email{
+    width: 81%;
+    background-color: #00000057;
+}
